@@ -1,0 +1,15 @@
+dsqp\db_game\dao\dev\UUserInfoDaoImpl.class
+dsqp\db_game\dao\stat\StatDao.class
+dsqp\db_game\dao\log_dev\UPyjUserRecordDao.class
+dsqp\db_game\dao\log_dev\UUserInfoLogDaoImpl.class
+dsqp\db_game\dao\dev\SPrivateroomconfigCfgDao.class
+dsqp\db_game\dao\dev\UUserPointDao.class
+dsqp\db_game\dao\log_dev\UPyjUserRecordDaoImpl.class
+dsqp\db_game\dao\dev\UUserInfoDao.class
+dsqp\db_game\dao\BaseDao.class
+dsqp\db_game\dao\stat\StatDaoImpl.class
+dsqp\db_game\dao\dev\UUserPointDaoImpl.class
+dsqp\db_game\dao\dev\SPrivateroomconfigCfgDaoImpl.class
+dsqp\db_game\dao\log_dev\UPropsLogDaoImpl.class
+dsqp\db_game\dao\log_dev\UUserInfoLogDao.class
+dsqp\db_game\dao\log_dev\UPropsLogDao.class

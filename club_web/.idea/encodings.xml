@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/club" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/club_admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/club_api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/club_lib" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/club_lib/db_admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/club_lib/db_club" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/club_lib/db_club_dict" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/club_lib/db_club_log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/club_lib/db_game" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/club_pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/club_task" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../project_lib/common_const" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../project_lib/common_util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../project_lib/db_access" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../project_lib/db_test" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

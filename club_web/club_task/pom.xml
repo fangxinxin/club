@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>club_web</artifactId>
+        <groupId>com.dsqp</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>club_task</artifactId>
+    <name>club_task【定时任务】</name>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.dsqp</groupId>
+            <artifactId>common_util</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.dsqp</groupId>
+            <artifactId>common_const</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.dsqp</groupId>
+            <artifactId>db_club</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.dsqp</groupId>
+            <artifactId>db_club_dict</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.dsqp</groupId>
+            <artifactId>db_club_log</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.dsqp</groupId>
+            <artifactId>db_game</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+
+        <plugins>
+            <!-- assembly -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <!-- assembly版本 -->
+                <version>2.2.1</version>
+                <executions>
+                    <!-- 若要同时打多个包（如windows和linux不同系统的包），可配置多个execution，此处只打zip，因此配置一个 -->
+                    <execution>
+                        <!-- id标识，唯一即可 -->
+                        <id>make-wrapper-win-zip</id>
+                        <!-- 设置package阶段进行 -->
+                        <phase>package</phase>
+                        <goals>
+                            <!-- 只运行一次 -->
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <!-- 输出的最终名称，自动添加格式后缀（如zip），当前示例为jsw-test.zip -->
+                            <finalName>jsw-club</finalName>
+                            <!-- 配置是否添加id到名称中，若为true，当前示例中，则为jsw-test-zip.zip，false即不添加，只是jsw-test.zip；
+                            若同时打多个包，则可设为true，分别添加id以作区分-->
+                            <appendAssemblyId>true</appendAssemblyId>
+                            <!-- 打包的输出目录，可自定义，${project.build.directory}为编译输出目录，即target目录 -->
+                            <outputDirectory>${project.build.directory}</outputDirectory>
+                            <descriptors>
+                                <!-- 使用的描述符，按此描述进行打包，此处配置一个zip.xml表示打zip包 -->
+                                <descriptor>src/main/assembly/wrapper-linux-zip.xml</descriptor>
+                                <!--<descriptor>src/main/assembly/wrapper-win-zip.xml</descriptor>-->
+                            </descriptors>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

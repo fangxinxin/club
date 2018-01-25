@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="common_const" />
+        <module name="common_util" />
+        <module name="db_access" />
+        <module name="db_test" />
+      </profile>
+      <profile default="false" name="Annotation profile for db_club_log" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="db_club_log" />
+      </profile>
+      <profile default="false" name="Annotation profile for db_club_dict" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="db_club_dict" />
+      </profile>
+      <profile default="false" name="Annotation profile for db_club" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="db_club" />
+      </profile>
+      <profile default="false" name="Annotation profile for db_game" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="db_game" />
+      </profile>
+      <profile default="false" name="Annotation profile for db_admin" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="db_admin" />
+      </profile>
+      <profile default="false" name="Annotation profile for club_api" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="club_api" />
+      </profile>
+      <profile default="false" name="Annotation profile for club_task" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="club_task" />
+      </profile>
+      <profile default="false" name="Annotation profile for club_pay" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="club_pay" />
+      </profile>
+      <profile default="false" name="Annotation profile for club_admin" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="club_admin" />
+      </profile>
+      <profile default="false" name="Annotation profile for club" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="club" />
+      </profile>
+      <profile default="false" name="Annotation profile for dsqp_cas" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="dsqp_cas" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="club" target="1.8" />
+      <module name="club_admin" target="1.8" />
+      <module name="club_api" target="1.8" />
+      <module name="club_lib" target="1.8" />
+      <module name="club_pay" target="1.8" />
+      <module name="club_task" target="1.8" />
+      <module name="club_web" target="1.8" />
+      <module name="common_const" target="1.8" />
+      <module name="common_util" target="1.8" />
+      <module name="db_access" target="1.8" />
+      <module name="db_admin" target="1.8" />
+      <module name="db_club" target="1.8" />
+      <module name="db_club_dict" target="1.8" />
+      <module name="db_club_log" target="1.8" />
+      <module name="db_game" target="1.8" />
+      <module name="db_test" target="1.8" />
+      <module name="dsqp_cas" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

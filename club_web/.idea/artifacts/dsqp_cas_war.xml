@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dsqp_cas:war">
+    <output-path>$PROJECT_DIR$/../project_web/dsqp_cas/target</output-path>
+    <root id="archive" name="dsqp_cas.war">
+      <element id="artifact" artifact-name="dsqp_cas:war exploded" />
+    </root>
+  </artifact>
+</component>

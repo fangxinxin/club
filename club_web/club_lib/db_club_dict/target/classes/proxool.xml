@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<something-else-entirely>
+
+    <proxool>
+        <alias>club_dict</alias>
+        <driver-url>
+            jdbc:mysql://123.57.166.73:3306/club_dict?useUnicode=true&amp;characterEncoding=UTF-8
+        </driver-url>
+        <driver-class>com.mysql.jdbc.Driver</driver-class>
+        <driver-properties>
+            <property name="user" value="root" />
+			<property name="password" value="ds01617" />
+            <property name="autoReconnect" value="true" />
+        </driver-properties>
+        <minimum-connection-count>5</minimum-connection-count>
+        <maximum-connection-count>20</maximum-connection-count>
+        <house-keeping-sleep-time>90000</house-keeping-sleep-time>
+
+        <house-keeping-test-sql>select 1</house-keeping-test-sql>
+    </proxool>
+
+</something-else-entirely>
+

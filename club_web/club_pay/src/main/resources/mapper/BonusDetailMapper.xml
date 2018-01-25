@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="pay.dao.BonusDetailDao">
+
+    <insert id="add" parameterType="dsqp.db_club.model.BonusDetailModel">
+        INSERT INTO bonus_detail (
+          gameId,
+          payId,
+          pLevel,
+          promoterId,
+          fromPromoterId,
+          diamond,
+          rebateDiamond,
+          rebatePercent,
+          createTime,
+          createDate
+        )
+        VALUES
+          (
+            #{obj.gameId},
+            #{obj.payId},
+            #{obj.pLevel},
+            #{obj.promoterId},
+            #{obj.fromPromoterId},
+            #{obj.diamond},
+            #{obj.rebateDiamond},
+            #{obj.rebatePercent},
+            now(),
+            curdate()
+          ) ;
+    </insert>
+
+</mapper>
+
+

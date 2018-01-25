@@ -1,0 +1,33 @@
+<assembly>
+       <!-- id标识，唯一即可，若pom中的appendAssemblyId设置为true，则会添加此id作为后缀 -->
+       <id>linux</id>
+       <formats>
+              <!-- 打包的格式 -->
+              <format>zip</format>
+       </formats>
+       <!-- 打包的文件不包含项目目录，压缩包下直接是文件 -->
+       <includeBaseDirectory>false</includeBaseDirectory>
+       <!-- 配置依赖的输出 -->
+       <dependencySets>
+              <dependencySet>
+                     <!-- 是否把当前项目的输出jar包并使用，true则会把当前项目输出为jar包到输出目录,false不输出 -->
+                     <useProjectArtifact>false</useProjectArtifact>
+                     <!-- 依赖输出目录，相对输出目录的根目录，当前示例把依赖输出到lib目录 -->
+                     <outputDirectory>/lib</outputDirectory>
+              </dependencySet>
+       </dependencySets>
+       <!-- 文件输出 -->
+       <fileSets>
+              <fileSet>
+                     <!-- 源目录，此处是把编译出来的class文件都输出到根目录下的classes目录-->
+                     <directory>${project.build.directory}/classes</directory>
+                     <!-- 输出目录 -->
+                     <outputDirectory>/classes</outputDirectory>
+              </fileSet>
+              <fileSet>
+                     <!-- 此处是把wrapper文件全部输出到根目录下的wrapper目录-->
+                     <directory>${project.basedir}/src/main/install/wrapper/linux</directory>
+                     <outputDirectory>/wrapper</outputDirectory>
+              </fileSet>
+       </fileSets>
+</assembly>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/club/club.iml" filepath="$PROJECT_DIR$/club/club.iml" />
+      <module fileurl="file://$PROJECT_DIR$/club_admin/club_admin.iml" filepath="$PROJECT_DIR$/club_admin/club_admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/club_api/club_api.iml" filepath="$PROJECT_DIR$/club_api/club_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/club_lib/club_lib.iml" filepath="$PROJECT_DIR$/club_lib/club_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/club_pay/club_pay.iml" filepath="$PROJECT_DIR$/club_pay/club_pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/club_task/club_task.iml" filepath="$PROJECT_DIR$/club_task/club_task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/club_web.iml" filepath="$PROJECT_DIR$/club_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project_lib/common_const/common_const.iml" filepath="$PROJECT_DIR$/../project_lib/common_const/common_const.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project_lib/common_util/common_util.iml" filepath="$PROJECT_DIR$/../project_lib/common_util/common_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project_lib/db_access/db_access.iml" filepath="$PROJECT_DIR$/../project_lib/db_access/db_access.iml" />
+      <module fileurl="file://$PROJECT_DIR$/club_lib/db_admin/db_admin.iml" filepath="$PROJECT_DIR$/club_lib/db_admin/db_admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/club_lib/db_club/db_club.iml" filepath="$PROJECT_DIR$/club_lib/db_club/db_club.iml" />
+      <module fileurl="file://$PROJECT_DIR$/club_lib/db_club_dict/db_club_dict.iml" filepath="$PROJECT_DIR$/club_lib/db_club_dict/db_club_dict.iml" />
+      <module fileurl="file://$PROJECT_DIR$/club_lib/db_club_log/db_club_log.iml" filepath="$PROJECT_DIR$/club_lib/db_club_log/db_club_log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/club_lib/db_game/db_game.iml" filepath="$PROJECT_DIR$/club_lib/db_game/db_game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project_lib/db_test/db_test.iml" filepath="$PROJECT_DIR$/../project_lib/db_test/db_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project_web/dsqp_cas/dsqp_cas.iml" filepath="$PROJECT_DIR$/../project_web/dsqp_cas/dsqp_cas.iml" />
+    </modules>
+  </component>
+</project>

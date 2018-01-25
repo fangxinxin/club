@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="pay.dao.PromoterDao">
+
+    <update id="updateForPay">
+        UPDATE promoter
+        SET gameCard      = gameCard      + #{gameCard}
+          , gameCardTotal = gameCardTotal + #{gameCard}
+          , totalPay      = totalPay      + #{price}
+        WHERE id = #{id}
+    </update>
+
+    <update id="updateForRebate">
+        UPDATE promoter
+        SET rebate      = rebate      + #{rebate}
+          , rebateTotal = rebateTotal + #{rebate}
+        WHERE id = #{id}
+    </update>
+</mapper>
+
+
